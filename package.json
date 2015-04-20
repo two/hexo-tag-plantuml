@@ -1,21 +1,28 @@
 {
-    "name": "plantuml",
+    "name": "hexo-tag-plantuml",
     "version": "1.0.0",
     "description": "hexo tag plantuml",
+    "author": {
+        "name": "sean chen",
+        "email": "oohcode@gmail.com",
+        "url": "http://oohcode.com/"
+    },
     "main": "index.js",
     "repository": {
         "type": "git",
         "url": "https://github.com/oohcoder/hexo-tag-plantuml.git"
     },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+    "bugs": {
+        "url": "https://github.com/oohcoder/hexo-tag-plantuml/issues"
     },
+    "readmeFilename": "README.md",
     "keywords": [
         "tag",
         "block",
         "plantuml",
         "hexo"
     ],
-    "author": "sean chen",
-    "license": "MIT"
+    "homepage": "https://github.com/oohcoder/hexo-tag-plantuml"
+    "_id": "hexo-tag-plantuml@1.0.0",
+    "_from": "hexo-tag-plantuml@"
 }
