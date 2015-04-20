@@ -22,7 +22,7 @@
         "plantuml",
         "hexo"
     ],
-    "homepage": "https://github.com/oohcoder/hexo-tag-plantuml"
+    "homepage": "https://github.com/oohcoder/hexo-tag-plantuml",
     "_id": "hexo-tag-plantuml@1.0.0",
     "_from": "hexo-tag-plantuml@"
 }
