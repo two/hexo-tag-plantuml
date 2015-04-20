@@ -1,7 +1,7 @@
 ## Introduction
 
 This is a [hexo](https://github.com/tommy351/hexo)
-tag plugin which allows you to use vim syntax highlight to highlight code inside markdown.
+tag plugin which allows you to render plantuml code in you blog.
 
 Hexo is a static blogging system written in Node.js.
 But hexo no support plantuml tag
