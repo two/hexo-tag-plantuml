@@ -1,0 +1,17 @@
+{
+  "name": "plantuml",
+  "version": "1.0.0",
+  "description": "hexo tag plantuml",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tag",
+    "block",
+    "plantuml",
+    "hexo"
+  ],
+  "author": "sean chen",
+  "license": "MIT"
+}
