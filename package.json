@@ -1,17 +1,21 @@
 {
-  "name": "plantuml",
-  "version": "1.0.0",
-  "description": "hexo tag plantuml",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "tag",
-    "block",
-    "plantuml",
-    "hexo"
-  ],
-  "author": "sean chen",
-  "license": "MIT"
+    "name": "plantuml",
+    "version": "1.0.0",
+    "description": "hexo tag plantuml",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/oohcoder/hexo-tag-plantuml.git"
+    }
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "tag",
+        "block",
+        "plantuml",
+        "hexo"
+    ],
+    "author": "sean chen",
+    "license": "MIT"
 }
