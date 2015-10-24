@@ -1,7 +1,20 @@
 'use strict';
 
+var request = require('request');
+var Promise = require('bluebird');
+var plantuml = require('./plantuml');
+
+
 hexo.extend.tag.register('plantuml', function(args, content){
-        var plantuml = require('./plantuml');
-        content = plantuml.compress(content);
-        return "<img  src="+content+">";
-},{ends: true});
+    return new Promise(function (resolve, reject) {
+        var plantSvgUrl = plantuml.compress(content);
+        request(plantSvgUrl, function (error, response, body) {
+            if (!error && response.statusCode == 200) {
+                resolve(body)
+            }
+        })
+    }).then(function (data) {
+            return '<img src="data:image/svg+xml;utf8,'+data.replace(/"/ig,"'")+'">';
+        });
+
+},{ends: true, async:true});

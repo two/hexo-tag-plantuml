@@ -1,28 +1,53 @@
 {
-    "name": "hexo-tag-plantuml",
-    "version": "1.0.0",
-    "description": "hexo tag plantuml",
-    "author": {
-        "name": "oohcode",
-        "email": "oohcode@gmail.com",
-        "url": "http://oohcode.com/"
-    },
-    "main": "index.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/oohcoder/hexo-tag-plantuml.git"
-    },
-    "bugs": {
-        "url": "https://github.com/oohcoder/hexo-tag-plantuml/issues"
-    },
-    "readmeFilename": "README.md",
-    "keywords": [
-        "tag",
-        "block",
-        "plantuml",
-        "hexo"
-    ],
-    "homepage": "https://github.com/oohcoder/hexo-tag-plantuml",
-    "_id": "hexo-tag-plantuml@1.0.0",
-    "_from": "hexo-tag-plantuml@"
+  "name": "hexo-tag-plantuml",
+  "version": "1.0.0",
+  "description": "hexo tag plantuml",
+  "author": {
+    "name": "oohcode",
+    "email": "oohcode@gmail.com",
+    "url": "http://oohcode.com/"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oohcoder/hexo-tag-plantuml.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oohcoder/hexo-tag-plantuml/issues"
+  },
+  "keywords": [
+    "tag",
+    "block",
+    "plantuml",
+    "hexo"
+  ],
+  "homepage": "https://github.com/oohcoder/hexo-tag-plantuml",
+  "_id": "hexo-tag-plantuml@1.0.0",
+  "_from": "hexo-tag-plantuml@*",
+  "gitHead": "184de062346e93fb7af792841baf00c9a5d8742f",
+  "scripts": {},
+  "_shasum": "62bd18de614f9620e22a0c7286eb9a708deda7c8",
+  "_npmVersion": "2.7.4",
+  "_nodeVersion": "0.12.2",
+  "_npmUser": {
+    "name": "oohcode",
+    "email": "oohcode@gmail.com"
+  },
+  "dist": {
+    "shasum": "62bd18de614f9620e22a0c7286eb9a708deda7c8",
+    "tarball": "http://registry.npmjs.org/hexo-tag-plantuml/-/hexo-tag-plantuml-1.0.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "oohcode",
+      "email": "oohcode@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/hexo-tag-plantuml/-/hexo-tag-plantuml-1.0.0.tgz",
+  "readme": "ERROR: No README data found!",
+  "dependencies": {
+    "bluebird": "^2.10.2",
+    "request": "^2.65.0"
+  }
 }
