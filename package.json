@@ -48,6 +48,7 @@
   "readme": "ERROR: No README data found!",
   "dependencies": {
     "bluebird": "^2.10.2",
+    "object-assign": "^2.0.0",
     "request": "^2.65.0"
   }
 }
