@@ -10,10 +10,10 @@
     "main": "index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/oohcoder/hexo-tag-plantuml.git"
+        "url": "https://github.com/two/hexo-tag-plantuml.git"
     },
     "bugs": {
-        "url": "https://github.com/oohcoder/hexo-tag-plantuml/issues"
+        "url": "https://github.com/two/hexo-tag-plantuml/issues"
     },
     "readmeFilename": "README.md",
     "keywords": [
@@ -22,7 +22,7 @@
         "plantuml",
         "hexo"
     ],
-    "homepage": "https://github.com/oohcoder/hexo-tag-plantuml",
+    "homepage": "https://github.com/two/hexo-tag-plantuml",
     "_id": "hexo-tag-plantuml@1.0.0",
     "_from": "hexo-tag-plantuml@"
 }
