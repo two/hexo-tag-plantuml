@@ -24,5 +24,10 @@
     ],
     "homepage": "https://github.com/two/hexo-tag-plantuml",
     "_id": "hexo-tag-plantuml@1.0.0",
-    "_from": "hexo-tag-plantuml@"
+    "_from": "hexo-tag-plantuml@",
+    "dependencies": {
+      "bluebird": "^2.10.2",
+      "object-assign": "^2.0.0",
+      "request": "^2.65.0"
+    }
 }
